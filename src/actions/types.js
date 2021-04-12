@@ -1,0 +1,3 @@
+export const FETCH_POPULAR = 'FETCH_POPULAR';
+export const FETCH_TOP_RATED = 'FETCH_TOP_RATED';
+export const FETCH_TOP_5_MOVIES = 'FETCH_TOP_5_MOVIES';
