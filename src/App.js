@@ -13,15 +13,15 @@ class App extends Component {
 			return (
 				<Provider store={store}>
 				<div className="App">
+					<header className="main-footer">
+        				<h4>Technical Assessment on Movie List App using React JS</h4>
+      				</header>
 					<Route exact path="/" render={() => (
 				  		<Movies />
 			  		)} />
 					<Route path="/MovieInfo" render={() => (
         				<MovieInfo/>
-         			)}/> 
-			  		<footer className="main-footer">
-        				<h4>Movie App @2021</h4>
-      				</footer>
+         			)}/>
       			</div>
       			</Provider>
     		);
